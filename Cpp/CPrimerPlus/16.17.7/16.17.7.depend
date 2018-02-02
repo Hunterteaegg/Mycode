@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1511871244 source:d:\c\16.17.7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	"safe_get.h"
+
+1511871437 c:\users\hunter\desktop\safe_get.h
+	<string.h>
+

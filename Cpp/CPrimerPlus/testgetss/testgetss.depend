@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511067674 source:d:\c\testgetss\main.c
+	<stdio.h>
+	<stdlib.h>
+

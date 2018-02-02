@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508129702 source:d:\c\echo_eof\echo_eof.c
+	<stdio.h>
+	<stdlib.h>
+

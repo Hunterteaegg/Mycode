@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1509718575 source:d:\c\12.9.3\main.c
+	<stdio.h>
+	"pel2-2a.h"
+
+1509718575 d:\c\12.9.3\pel2-2a.h
+

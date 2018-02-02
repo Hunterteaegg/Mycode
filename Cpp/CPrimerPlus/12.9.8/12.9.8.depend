@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1509780385 source:d:\c\12.9.8\functions.c
+	<stdlib.h>
+	<stdio.h>
+
+1509780107 source:d:\c\12.9.8\main.c
+	<stdio.h>
+	<stdlib.h>
+
