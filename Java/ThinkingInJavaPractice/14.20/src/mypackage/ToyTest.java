@@ -33,7 +33,7 @@ public class ToyTest {
     print("Canonical name : " + cc.getCanonicalName());
   }
   public static void main(String[] args) throws InstantiationException, IllegalAccessException, IllegalArgumentException, ReflectiveOperationException {
-    Class<?> c=Class.forName("mypackage.Toy");
+    Class<Toy> c=(Class<Toy>) Class.forName("mypackage.Toy");
     Constructor<?> constructors=c.getConstructor(String.class);
     Toy toy=(Toy)constructors.newInstance("s");
     System.out.println(toy);
