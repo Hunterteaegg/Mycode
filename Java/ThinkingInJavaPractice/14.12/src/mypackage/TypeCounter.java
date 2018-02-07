@@ -1,8 +1,9 @@
 //: net/mindview/util/TypeCounter.java
 // Counts instances of a type family.
-package net.mindview.util;
+package mypackage;
 import java.util.*;
 
+@SuppressWarnings("serial")
 public class TypeCounter extends HashMap<Class<?>,Integer>{
   private Class<?> baseType;
   public TypeCounter(Class<?> baseType) {
