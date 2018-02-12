@@ -16,7 +16,7 @@ public class Ocean {
 		Generators.fill(line, LittleFish.generator(), 15);
 		List<BigFish> bigFishs=new ArrayList<BigFish>();
 		Generators.fill(bigFishs, BigFish.generator(), 4);
-		for(LittleFish l:line)
+		for(LittleFish l:line)   
 		{
 			eat(bigFishs.get(random.nextInt(bigFishs.size())),l);
 		}
