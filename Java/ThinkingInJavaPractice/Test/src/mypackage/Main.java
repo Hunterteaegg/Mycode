@@ -3,8 +3,7 @@
  */
 package mypackage;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
+import java.util.LinkedList;
 
 /**
  * @author HunterTeaEgg_HOME
@@ -17,20 +16,11 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
-		Class c=MyClass.class;
-		Method[] methods=c.getMethods();
-		Constructor[] constructors=c.getConstructors();
+		Object object=new Object();
+		Object[] objects=new Object[100];
+		LinkedList<Object> linkedList=new LinkedList<Object>();
 		
-		for(Method method:methods)
-		{
-			System.out.println(method);
-		}
-		System.out.println();
-		for(Constructor constructor:constructors)
-		{
-			System.out.println(constructor);
-		}
-
+		System.out.println(object.getClass());
 	}
 
 }
