@@ -1,0 +1,12 @@
+package mypackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		System.out.println(new Holder<Integer>(5));
+		System.out.println(new Holder<Integer>(6).i);
+
+	}
+
+}
