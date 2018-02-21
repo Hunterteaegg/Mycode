@@ -30,4 +30,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\mysql-5.7.21-winx64\mysql-5.7.21-winx64\lib\libmysql.dll">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
 </Project>
