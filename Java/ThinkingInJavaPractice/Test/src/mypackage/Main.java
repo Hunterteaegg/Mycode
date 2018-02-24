@@ -16,11 +16,14 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
-		Object object=new Object();
-		Object[] objects=new Object[100];
-		LinkedList<Object> linkedList=new LinkedList<Object>();
+		LinkedList<Integer> list=new LinkedList<Integer>();
 		
-		System.out.println(object.getClass());
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		list.add(1,1);
+		System.out.println(list);
+		System.out.println(list.get(1));
 	}
 
 }
