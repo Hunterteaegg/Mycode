@@ -41,7 +41,7 @@ public class Main {
 		/*
 		 * print time
 		 */
-		System.out.println("ArrayList:"+duration_arraylist+" LinkedList:"+duration_linkedlist);
+		System.out.println("ArrayList:"+((float)duration_arraylist/1000000)+" LinkedList:"+((float)duration_linkedlist/1000000));
 
 	}
 
