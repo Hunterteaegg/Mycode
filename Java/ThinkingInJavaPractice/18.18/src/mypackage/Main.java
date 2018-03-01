@@ -14,7 +14,7 @@ public class Main {
 		 * initialize a map
 		 */
 		Map<Byte, Integer> byteCount=new TreeMap<Byte,Integer>();
-		for(byte i=0;i<256;i++)
+		for(byte i=-128;i<127;i++)
 		{
 			byteCount.put(i, 0);
 		}
@@ -24,7 +24,7 @@ public class Main {
 		try {
 			byte[] lecture=BinaryFile.read("lecture.txt");
 			
-			for(Byte b:lecture)
+			for(byte b:lecture)
 			{
 				int count=byteCount.get(b);
 				byteCount.put(b,++count );
