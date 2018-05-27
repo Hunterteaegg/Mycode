@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1527073438 source:/home/hunterteaegg/Git/Practice/Cpp/electCaptain/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<ctype.h>
+
