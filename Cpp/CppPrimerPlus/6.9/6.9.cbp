@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="6.10" />
+		<Option title="6.9" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -36,7 +36,6 @@
 		<Extensions>
 			<envvars />
 			<code_completion />
-			<lib_finder disable_auto="1" />
 			<debugger />
 		</Extensions>
 	</Project>

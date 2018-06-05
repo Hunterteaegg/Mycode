@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1528131242 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/5.2/main.cpp
+	<iostream>
+	<array>
+
