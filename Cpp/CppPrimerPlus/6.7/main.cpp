@@ -2,40 +2,19 @@
 
 using namespace std;
 
-struct Car
-{
-    string producer;
-    int year=0;
-};
-
 int main()
 {
-    int num=0;
+    char temp;
+    int counter=1;
 
-    cout<<"How many cars do you wish to catalog?";
-    cin>>num;
-    getchar();
+    cout<<"Enter words (q to quit):"<<endl;
 
-    Car *cars=new Car[num];
-
-    for(int i=0;i<num;i++)
+    while((temp=cin.get())!='q')
     {
-
-        cout<<"Car #"<<i+1<<endl;
-        cout<<"Please enter the make:";
-        getline(cin,cars[i].producer);
-        cout<<"Please enter the year made:";
-        cin>>cars[i].year;
-        getchar();
-
+        if(temp==' ')
+        {
+            ++counter;
+        }
     }
-
-    cout<<"Here is your collection:"<<endl;
-
-    for(int i=0;i<num;i++)
-    {
-        cout<<cars[i].year<<" "<<cars[i].producer<<endl;
-    }
-
     return 0;
 }

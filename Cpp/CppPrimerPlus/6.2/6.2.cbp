@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="6.8" />
+		<Option title="6.2" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -33,11 +33,9 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
-		<Unit filename="text.txt" />
 		<Extensions>
 			<envvars />
 			<code_completion />
-			<lib_finder disable_auto="1" />
 			<debugger />
 		</Extensions>
 	</Project>

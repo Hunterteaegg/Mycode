@@ -36,6 +36,7 @@
 		<Extensions>
 			<envvars />
 			<code_completion />
+			<lib_finder disable_auto="1" />
 			<debugger />
 		</Extensions>
 	</Project>

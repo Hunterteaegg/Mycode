@@ -1,24 +1,25 @@
 #include <iostream>
-#include <cstring>
+#include <fstream>
 
 using namespace std;
 
 int main()
 {
-    char done[]="done";
     int counter=0;
-    char temp[20];
+    char ch;
 
-    cout<<"Enter words (to stop, type the word done):\n";
+    ifstream input;
+    input.open("text.txt");
 
-    cin>>temp;
-
-    while(strcmp(temp,done)!=0)
+    if(input.good())
     {
-        counter++;
-        cin>>temp;
+        while((ch=input.get())!=EOF)
+        {
+            counter++;
+        }
     }
-    cout<<"You entered a total of "<<counter<<" words.";
+
+    cout<<"The number is "<<counter;
 
     return 0;
 }

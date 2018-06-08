@@ -1,21 +1,32 @@
 #include <iostream>
 
+#define strsize 20
+
+using namespace std;
+
+struct bop
+{
+    char fullname[strsize];
+    char title[strsize];
+    char bopname[strsize];
+    int preference;
+};
+
+char show_menu()
+{
+    cout<<"a. display by name\t"<<"b. display by title"<<endl;
+    cout<<"c. display by bopname\t"<<"d. display by preference"<<endl;
+    cout<<"q. quit"<<endl;
+
+    char choice;
+    cin>>choice;
+
+    return choice;
+}
+
 int main()
 {
-    float base=100.0;
-    float Daphne_profit=base;
-    float Cleo_profit=base;
-    int year=1;
 
-    do
-    {
-        Daphne_profit+=0.1*base*year;
-        Cleo_profit+=0.05*Cleo_profit*year;
-        year++;
-    }
-    while(Cleo_profit<Daphne_profit);
-
-    std::cout<<"The total value is "<<Cleo_profit<<" "<<Daphne_profit<<" ,"<<year<<" years";
-
+    show_menu();
     return 0;
 }

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1526828008 source:/home/hunterteaegg/Git/Practice/Cpp/insertArray/main.cpp
+	<iostream>
+	<stdbool.h>
+

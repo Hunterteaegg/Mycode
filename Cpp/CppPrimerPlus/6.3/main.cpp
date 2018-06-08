@@ -1,22 +1,35 @@
 #include <iostream>
 
+char show_menu();
+
 int main()
 {
     using namespace std;
 
-    int temp;
-    int result=0;
-    int formal_result=0;
-
-    do
+    switch(show_menu())
     {
-        formal_result=result;
-        cin>>temp;
-        result+=temp;
+        case 'c':cout<<"carnivore"<<endl;break;
+        case 'p':cout<<"pianist"<<endl;break;
+        case 't':cout<<"tree"<<endl;break;
+        case 'g':cout<<"game"<<endl;break;
+        default:cout<<"No matching choice!"<<endl;
     }
-    while(formal_result!=result);
-
-    cout<<"The result is "<<result;
 
     return 0;
+}
+
+char show_menu()
+{
+    using namespace std;
+
+    ;
+    char choice;
+
+    cout<<"Please enter one of the following choices:"<<endl;
+    cout<<"c) carnivore\t"<<"p) pianist"<<endl;
+    cout<<"t) tree\t\t"<<"g) game"<<endl;
+
+    cin>>choice;
+
+    return choice;
 }
