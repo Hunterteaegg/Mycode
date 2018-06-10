@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1528642227 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/8.4/main.cpp
+	<iostream>
+	<cstring>
+
