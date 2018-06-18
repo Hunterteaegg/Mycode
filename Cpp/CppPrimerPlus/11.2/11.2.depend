@@ -1,9 +1,11 @@
 # depslib dependency file v1.0
-1446667744 source:f:\code\mycode\cpp\cppprimerplus\11.2\main.cpp
+1529165943 source:f:\code\mycode\cpp\cppprimerplus\11.2\main.cpp
 	<iostream>
-
-1529151263 source:f:\code\mycode\cpp\cppprimerplus\11.2\vector.cpp
 	"vector.h"
+
+1529165871 source:f:\code\mycode\cpp\cppprimerplus\11.2\vector.cpp
+	"vector.h"
+	<cmath>
 
 1529135581 f:\code\mycode\cpp\cppprimerplus\11.2\vector.h
 	<iostream>

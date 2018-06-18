@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1529259008 source:f:\code\mycode\cpp\cppprimerplus\11.7\main.cpp
+	<iostream>
+	"complex.h"
+
+1529259418 source:f:\code\mycode\cpp\cppprimerplus\11.7\complex.cpp
+	"complex.h"
+	<iostream>
+
+1529259418 f:\code\mycode\cpp\cppprimerplus\11.7\complex.h
+	<iostream>
+
