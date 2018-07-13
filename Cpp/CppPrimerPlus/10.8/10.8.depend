@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1446667744 source:f:\code\mycode\cpp\cppprimerplus\10.8\main.cpp
+	<iostream>
+
+1529132874 source:f:\code\mycode\cpp\cppprimerplus\10.8\list.cpp
+	"list.h"
+
+1529132795 f:\code\mycode\cpp\cppprimerplus\10.8\list.h
+

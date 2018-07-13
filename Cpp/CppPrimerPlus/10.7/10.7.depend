@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1529131861 source:f:\code\mycode\cpp\cppprimerplus\10.7\main.cpp
+	<iostream>
+	"plorg.h"
+
+1529132125 f:\code\mycode\cpp\cppprimerplus\10.7\plorg.h
+
+1529132137 source:f:\code\mycode\cpp\cppprimerplus\10.7\plorg.cpp
+	"plorg.h"
+	<iostream>
+	<cstring>
+

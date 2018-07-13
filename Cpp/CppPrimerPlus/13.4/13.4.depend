@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1529733725 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/13.4/main.cpp
+	<iostream>
+
+1529754959 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/13.4/Port.cpp
+	"port.h"
+	<iostream>
+	<cstring>
+
+1529733999 /home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/13.4/port.h
+	<iostream>
+

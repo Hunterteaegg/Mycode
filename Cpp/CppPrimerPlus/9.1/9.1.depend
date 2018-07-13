@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1528888395 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/9.1/main.cpp
+	<iostream>
+	"golf.h"
+
+1528876452 /home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/9.1/golf.h
+
+1528876452 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/9.1/golf.h
+
+1528877339 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/9.1/functions.cpp
+	<iostream>
+	"golf.h"
+	<cstring>
+

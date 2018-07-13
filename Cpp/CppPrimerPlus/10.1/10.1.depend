@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1528978335 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.1/main.cpp
+	<iostream>
+	<cstring>
+	"bank.h"
+
+1528978075 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.1/Account.cpp
+	<iostream>
+	<cstring>
+	"bank.h"
+
+1528978118 /home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.1/bank.h
+	<iostream>
+	<cstring>
+

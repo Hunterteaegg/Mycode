@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1529693517 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/13.1/main.cpp
+	<iostream>
+	"classic.h"
+	"cd.h"
+
+1529693022 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/13.1/Cd.cpp
+	"cd.h"
+	<cstring>
+	<iostream>
+
+1529692158 /home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/13.1/cd.h
+
+1529693231 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/13.1/Classic.cpp
+	<iostream>
+	"classic.h"
+	<cstring>
+
+1529693231 /home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/13.1/classic.h
+	"cd.h"
+	<cstring>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1529131254 source:f:\code\mycode\cpp\cppprimerplus\10.6\main.cpp
+	<iostream>
+	"move.h"
+
+1529131099 source:f:\code\mycode\cpp\cppprimerplus\10.6\move.cpp
+	"move.h"
+	<iostream>
+
+1529130854 f:\code\mycode\cpp\cppprimerplus\10.6\move.h
+

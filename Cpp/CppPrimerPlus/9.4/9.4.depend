@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1528890818 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/9.4/main.cpp
+	<iostream>
+	"header.h"
+
+1528890759 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/9.4/functions.cpp
+	<iostream>
+	"header.h"
+
+1528889840 /home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/9.4/header.h
+

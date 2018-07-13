@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1528983622 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.3/golf.cpp
+	<iostream>
+	<cstring>
+	"golf.h"
+
+1528983658 /home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.3/golf.h
+
+1528983792 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.3/main.cpp
+	<iostream>
+	"golf.h"
+

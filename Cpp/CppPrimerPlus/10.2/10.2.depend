@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1528982479 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.2/main.cpp
+	<iostream>
+	"person.h"
+
+1528982388 source:/home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.2/person.cpp
+	<cstring>
+	<cctype>
+	<iostream>
+	"person.h"
+
+1528982099 /home/hunterteaegg/Git/Practice/Cpp/CppPrimerPlus/10.2/person.h
+	<cstring>
+

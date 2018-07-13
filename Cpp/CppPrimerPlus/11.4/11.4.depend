@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1446667744 source:f:\code\mycode\cpp\cppprimerplus\11.4\main.cpp
+	<iostream>
+
+1529244872 source:f:\code\mycode\cpp\cppprimerplus\11.4\mytime3.cpp
+	"mytime3.h"
+	<iostream>
+
+1529244671 f:\code\mycode\cpp\cppprimerplus\11.4\mytime3.h
+	<iostream>
+
